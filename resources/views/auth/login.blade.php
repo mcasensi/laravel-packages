@@ -33,7 +33,7 @@
             </div>
             
             <div class="block">
-                <button class="w-full h-12 mt-4 text-blue-100 transition-colors duration-150 bg-blue-700 rounded-lg focus:shadow-outline hover:bg-blue-800">
+                <button class="w-full h-12 mt-4 text-yellow-100 transition-colors duration-150 bg-yellow-700 rounded-lg focus:shadow-outline hover:bg-yellow-800">
                     {{ __('Log in') }}
                 </button>
                 <button class="w-full h-12 mt-1 text-gray-100 transition-colors duration-150 bg-gray-700 rounded-lg focus:shadow-outline hover:bg-gray-800">
@@ -41,6 +41,9 @@
                 </button>
                 <button class="w-full h-12 mt-1 text-green-100 transition-colors duration-150 bg-green-700 rounded-lg focus:shadow-outline hover:bg-green-800">
                     <a href="{{ url('/login/google') }}">{{ __('Login with Google') }} </a>
+                </button>
+                <button class="w-full h-12 mt-1 text-blue-100 transition-colors duration-150 bg-blue-700 rounded-lg focus:shadow-outline hover:bg-blue-800">
+                    <a href="{{ url('/login/facebook') }}">{{ __('Login with Facebook') }} </a>
                 </button>
             </div>
             <!-- Remember Me -->
